@@ -52,10 +52,26 @@
 .card-box-info{
     position: relative;
 }
-.card-box-info > img{
+.card-box-info > img {
     width: 100%;
+}
+
+.img-1 {
     display: block;
 }
+
+.img-2 {
+    display: none;
+}
+
+.card-box-info:hover > .img-1 {
+    display: none;
+}
+
+.card-box-info:hover > .img-2 {
+    display: block;
+}
+
 .sostenibilità{
     color: white;
     background-color: green;
