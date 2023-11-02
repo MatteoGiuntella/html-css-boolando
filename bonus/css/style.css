@@ -1,0 +1,154 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* general */
+.container{
+    width: 1200px;
+    margin: auto;
+}
+button{
+    border: none;
+}
+/* header */
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+.logo > img{
+    display: block;
+    height: 50px;
+}
+.header-container > *{
+    color: white;
+}
+.items > *{
+    margin-left: 10px;
+}
+.gender > *{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* main */
+.main-container{
+    width: 100%;
+    margin: auto;
+}
+.row-1-3{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-box{
+    width: calc(90% / 3 );
+    margin-top: 50px; 
+}
+.card-box-info{
+    position: relative;
+}
+.card-box-info > img {
+    width: 100%;
+}
+
+.img-1 {
+    display: block;
+}
+
+.img-2 {
+    display: none;
+}
+
+.card-box-info:hover > .img-1 {
+    display: none;
+}
+
+.card-box-info:hover > .img-2 {
+    display: block;
+}
+
+.sostenibilità{
+    color: white;
+    background-color: green;
+}
+.sostenibilità-only{
+    color: white;
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    left: 0px; 
+
+}
+.sconto{
+    position: absolute;
+    bottom: 50px;
+    left: 0px; 
+    color: white;
+    background-color: red;
+}
+.hearts{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    text-align: center;
+}
+.hearts{
+    width: 30px;
+    height: 30px;
+    /* display: block; */
+}
+.hearts{
+    font-size: 25px;
+}
+.hearts:hover{
+   color: red;
+}
+.marca{
+    font-weight: bold;
+    color: lightslategray;
+}
+#first-price{
+    font-weight: bold;
+    color: red;
+}
+#secondo-price{
+    font-weight: bold;
+    color: gray;
+    text-decoration: line-through;
+}
+/* footer */
+.footer-container{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-left > *{
+    color: white;
+}
+.footer-right > *{
+    color: white;
+}
+.footer-container > *{
+    margin-top: 40px;
+}
+.footer-left :last-child{
+    margin-top: 30px;
+}
+.footer-right :last-child{
+    margin-top: 20px;
+}
+
+
+
