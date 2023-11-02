@@ -46,9 +46,46 @@
 }
 .card-box{
     width: calc(100% / 3 );
-    margin-top: 50px;
+    margin-top: 50px; 
 }
-.card-box > img{
+.card-box-top{
+    position: relative;
+}
+.card-box-top > img{
     width: 100%;
     display: block;
 }
+.sconto{
+    position: absolute;
+    bottom: 50px;
+    left: 20px; 
+}
+.hearts{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+}
+.hearts > button{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.hearts > button > i{
+    font-size: 25px;
+}
+.marca{
+    font-weight: bold;
+    color: lightslategray;
+}
+#first-price{
+    font-weight: bold;
+    color: red;
+}
+#secondo-price{
+    font-weight: bold;
+    color: gray;
+    text-decoration: line-through;
+}
+
+
