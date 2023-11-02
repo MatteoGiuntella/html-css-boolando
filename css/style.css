@@ -42,10 +42,11 @@
     display: flex;
     width: 100%;
     margin: auto;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .card-box{
-    width: calc(100% / 3 );
+    width: calc(90% / 3 );
     margin-top: 50px; 
 }
 .card-box-top{
@@ -55,10 +56,24 @@
     width: 100%;
     display: block;
 }
+.sostenibilità{
+    color: white;
+    background-color: green;
+}
+.sostenibilità-only{
+    color: white;
+    background-color: green;
+    position: absolute;
+    bottom: 50px;
+    left: 0px; 
+
+}
 .sconto{
     position: absolute;
     bottom: 50px;
-    left: 20px; 
+    left: 0px; 
+    color: white;
+    background-color: red;
 }
 .hearts{
     position: absolute;
