@@ -3,9 +3,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 /* general */
 .container{
     width: 1200px;
     margin: auto;
+}
+/* header */
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+}
+.logo > img{
+    display: block;
+    height: 50px;
+}
+.header-container > *{
+    color: white;
+}
+.items > *{
+    margin-left: 10px;
+}
+.gender > *{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
 }
