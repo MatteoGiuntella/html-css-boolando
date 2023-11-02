@@ -49,10 +49,10 @@
     width: calc(90% / 3 );
     margin-top: 50px; 
 }
-.card-box-top{
+.card-box-info{
     position: relative;
 }
-.card-box-top > img{
+.card-box-info > img{
     width: 100%;
     display: block;
 }
@@ -102,5 +102,29 @@
     color: gray;
     text-decoration: line-through;
 }
+/* footer */
+.footer-container{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-left > *{
+    color: white;
+}
+.footer-right > *{
+    color: white;
+}
+.footer-container > *{
+    margin-top: 40px;
+}
+.footer-left :last-child{
+    margin-top: 30px;
+}
+.footer-right :last-child{
+    margin-top: 20px;
+}
+
 
 
